@@ -32,4 +32,12 @@ public class TaskSubmissionTest {
         // Write test cases to verify chat functionality with the tutor
         assertFalse(submission.chatWithTutor(0, ""));
     }
+    
+    
+    @Test
+    public void testFailingCondition() {
+        // This test will always fail
+        assertEquals("Expected value", "Actual value");
+    }
+
 }
